@@ -143,4 +143,4 @@ app.delete('/users/:id', async (req, res) => {
 app.listen(port, async (req, res) => {
   await initMySQL()
   console.log('http server run at ' + port)
-})
+}) // สั่งให้เปิด server ที่ port 8000
